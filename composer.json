@@ -1,0 +1,22 @@
+{
+    "name": "lucasfirmino/action",
+    "authors": [
+        {
+            "name": "Lucas Firmino",
+            "email": "lucasfirmino_dev@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Action\\Framework\\": "src",
+            "App\\": "app"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:8000 -t public"
+    },
+    "config": {
+        "process-timeout": 0
+    }
+}

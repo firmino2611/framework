@@ -4,12 +4,8 @@ require __DIR__ . '/vendor/autoload.php';
 
 $router = new Action\Framework\Router;
 
-$router->add('get', '/', function(){
-    return 'PAgina inicial.';
-});
-$router->add('post', '/eu/(\d+)', function(){
-    return 'PAgina eu.';
-});
+require __DIR__ . '/config/routes.php';
+require __DIR__ . '/config/containers.php';
 
 try{
     echo $router->run();

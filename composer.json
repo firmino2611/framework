@@ -6,7 +6,9 @@
             "email": "lucasfirmino_dev@hotmail.com"
         }
     ],
-    "require": {},
+    "require": {
+        "pimple/pimple": "^3.2"
+    },
     "autoload": {
         "psr-4": {
             "Action\\Framework\\": "src",
